@@ -1,0 +1,5 @@
+<!-- Blank default config! Make your own! -->
+<!-- See: sysmon.exe -? config            -->
+
+<Sysmon schemaversion="2.01">
+</Sysmon>
