@@ -1,6 +1,7 @@
 # sysmon
 
-Installs and configures Sysmon, part of the Sysinternals suite.
+A Chef cookbook to install and configure Sysmon (part of the Sysinternals
+suite).
 
 ## Platforms
 
@@ -8,7 +9,8 @@ Installs and configures Sysmon, part of the Sysinternals suite.
 
 ## Requirements
 
-* The `windows` cookbook
+* Unfortunately, the `windows` cookbook is needed for its `windows_zipfile`
+  resource since Sysmon is distributed as a simple zip file.
 
 ## Attributes
 
