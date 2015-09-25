@@ -51,9 +51,11 @@ spec/*
 spec/fixtures/*
 test/*
 features/*
+examples/*
 Guardfile
 Procfile
-.kitchen
+test/*
+spec/*
 
 # SCM #
 #######
@@ -78,6 +80,7 @@ tmp
 # Cookbooks #
 #############
 CONTRIBUTING
+CHANGELOG*
 
 # Strainer #
 ############
